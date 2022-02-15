@@ -1,4 +1,4 @@
-# intelliflash-sra-plugin
+﻿# intelliflash-sra-plugin
 
 ## Overview of IntelliFlash SRA
 The IntelliFlash Storage Replication Adapter (SRA) plugin that works with the VMware vCenter Site Recovery Manager (SRM) and enables you to plan, test, and implement array-based replication in VMware environments for disaster recovery. You can use IntelliFlash arrays as replication partners in the Site Recovery Manager environment.
@@ -86,12 +86,13 @@ The IntelliFlash SRA plugin allows you to use the SRM to make recovery plans for
 
 **Prerequisite:** Install the two SRMs and then pair them.
 
-1. Download the containerized IntelliFlash SRA 1.0.3 plugin.   
-To download the containerized IntelliFlash SRA 1.0.3 plugin, perform the following steps:
-    1. In the IntelliFlash Web UI, navigate to **Settings > Administration > Plugins.**
-    2. In the **Plugins** page, click **Download** next to the **SRA Plugin (Container Image)** and save it to a directory of your choice.
-    3. Save the **SRA Plugin** in the required folder on your host system.   
-    The downloaded file is a .tar.gz file.
+1. Download the containerized IntelliFlash SRA 2.0.0 plugin.   
+To download the containerized IntelliFlash SRA 2.0.0 plugin, perform the following steps:
+    1. Go to [https://github.com/DDNStorage/intelliflash-sra-plugin](https://github.com/DDNStorage/intelliflash-sra-plugin) in a web browser.
+    2. Navigate to the **IntelliFlash-Containerized-SRA.2.0.0.tar.gz** file
+    3. Click **Download** button and save it to a directory of your choice
+    4. Save the **SRA Plugin** in the required folder on your host system.  
+    The downloaded file is a .tar.gz file.  
 2. Install the containerized IntelliFlash SRA plugin in the paired SRM sites.   
 To install the containerized IntelliFlash SRA plugin, perform the following steps:
     1. Log in to the **vSphere Client**.
