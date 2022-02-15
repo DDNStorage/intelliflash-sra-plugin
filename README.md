@@ -88,12 +88,11 @@ The IntelliFlash SRA plugin allows you to use the SRM to make recovery plans for
 
 1. Download the containerized IntelliFlash SRA 2.0.0 plugin.   
 To download the containerized IntelliFlash SRA 2.0.0 plugin, perform the following steps:
-    1. In the IntelliFlash Web UI, navigate to **Settings > Administration > Plugins.**
-    2. In the **Plugins** page, click **Download** next to the **SRA Plugin (Container Image)** and save it to a directory of your choice.
-    3. Save the **SRA Plugin** in the required folder on your host system.   
+    1. Go to [https://github.com/DDNStorage/intelliflash-sra-plugin](https://github.com/DDNStorage/intelliflash-sra-plugin) in a web browser.
+    2. Navigate to the **IntelliFlash-Containerized-SRA.2.0.0.tar.gz** file
+    3. Click **Download** button and save it to a directory of your choice
+    4. Save the **SRA Plugin** in the required folder on your host system.  
     The downloaded file is a .tar.gz file.  
-    Or  
-    Use github link to download the containerized IntelliFlash SRA 2.0.0 plugin: [IntelliFlash-Containerized-SRA-2.0.0.tar.gz](https://github.com/DDNStorage/intelliflash-sra-plugin/raw/master/IntelliFlash-Containerized-SRA-2.0.0.tar.gz)
 2. Install the containerized IntelliFlash SRA plugin in the paired SRM sites.   
 To install the containerized IntelliFlash SRA plugin, perform the following steps:
     1. Log in to the **vSphere Client**.
