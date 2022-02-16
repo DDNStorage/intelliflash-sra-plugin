@@ -177,7 +177,7 @@ The reprotect operation reverses the replication direction, and the replication 
 
 Your recovery site becomes the new protected site and your replication target array becomes your replication source array.
 
-## Uninstalling Containerized IntelliFlash SRA 2.0.0 for SRM 8.2
+## Uninstalling Containerized IntelliFlash SRA 2.0.0 for SRM (Photon) 8.2 and above
 1. Log in to the **vSphere Client**.
 2. Click **Menu** and select **Site Recovery**.
 3. In the **Site Recovery** panel, click **Configure**.  
