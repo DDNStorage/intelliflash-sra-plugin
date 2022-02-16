@@ -1,4 +1,4 @@
-﻿# intelliflash-sra-plugin
+# intelliflash-sra-plugin
 
 ## Overview of IntelliFlash SRA
 The IntelliFlash Storage Replication Adapter (SRA) plugin that works with the VMware vCenter Site Recovery Manager (SRM) and enables you to plan, test, and implement array-based replication in VMware environments for disaster recovery. You can use IntelliFlash arrays as replication partners in the Site Recovery Manager environment.
@@ -56,7 +56,7 @@ You can disable this using the ESXi CLI. Use the following command to disable th
  *# esxcli system settings advanced set -i 0 -o /VMFS3/UseATSForHBOnVMFS5*
  
 ### Supported VMware Site Recovery Manager Versions
- - VMware Site Recovery Manager 8.2
+ - VMware Site Recovery Manager (Photon) 8.2 and above
  
 ## Configuring IntelliFlash SRA on Site Recovery Manager
 You need to complete the following configuration before configuring IntelliFlash SRA on the Site Recovery Manager Servers (protected and recovery sites):
@@ -75,7 +75,7 @@ You must install the supported VMware Site Recovery Manager Server on a Windows 
 
 After installing the VMware Site Recovery Manager Server, the Site Recovery Manager plugin appears in the vSphere Web Client. You can use the plugin in the vSphere Web Client to configure and manage the Site Recovery Manager Server.
 
-After installing a supported VMware Site Recovery Manager version (VMware Site Recovery Manager 8.2) on both the protected site and recovery site, you must pair the sites.
+After installing a supported VMware Site Recovery Manager version (VMware Site Recovery Manager 8.2 and above) on both the protected site and recovery site, you must pair the sites.
 
 Refer to the VMware documentation for prerequisites and detailed instructions on how to install the VMware Site Recovery Manager Server.
 
