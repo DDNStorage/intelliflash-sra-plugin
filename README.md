@@ -81,7 +81,7 @@ Refer to the VMware documentation for prerequisites and detailed instructions on
 
 - [https://docs.vmware.com/en/Site-Recovery-Manager/index.html](https://docs.vmware.com/en/Site-Recovery-Manager/index.html)
 
-## Installing Containerized IntelliFlash SRA 2.0.0 for SRM 8.2
+## Installing Containerized IntelliFlash SRA 2.0.0 for SRM (Photon) 8.2 and above
 The IntelliFlash SRA plugin allows you to use the SRM to make recovery plans for VMs on replicated IntelliFlash storage arrays. Install SRA plugin on both the sites that have the SRMs installed.
 
 **Prerequisite:** Install the two SRMs and then pair them.
